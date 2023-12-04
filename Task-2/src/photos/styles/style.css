@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.display-flex{
+    display: flex;
+    align-items: center;   
+}
+nav ul, footer ul{  
+    justify-content: space-around; 
+    list-style: none;
+    margin: 20px 0;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(60, 52, 63);
+    font-size: 20px;
+    font-weight: bolder;
+}
+.about-div{
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.about-div div, .rezi, .nina {
+    width: 400px;
+}
+#about p{
+   
+    padding: 30px 0;
+    
+}
+
+/* info about rezi and ani */
+
+.founders-info{
+    justify-content: center;
+    gap: 300px;
+    margin-top: 50px;
+}
+
+/* form styles */
+
+#contact{
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px 0;
+}
+form{
+    display: grid;
+    grid-template-columns: 1fr ;
+    column-gap: 4px;
+    row-gap: 10px;  
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+.submit input{
+    padding: 7px 10px;
+    border-style: none;
+    background-color: pink;
+    color: green;
+    border-radius: 3px;
+}
+
+/* contact info */
+
+.contact-info{
+    text-align: center;
+    margin-top: 20px
+}

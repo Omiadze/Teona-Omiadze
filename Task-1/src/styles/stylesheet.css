@@ -16,7 +16,6 @@
 .main{
   display: flex;
   justify-content: space-around;
-  align-items: center;
 }
 .main img{
   border-radius: 20px;
