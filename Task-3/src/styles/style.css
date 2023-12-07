@@ -1,0 +1,271 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 82px;
+    font-family: 'Fira Sans', sans-serif;
+    background-image: url("./../img/bg_lines\ \(1\).svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    margin-top: 58px;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+.nav-ul{
+    list-style: none;
+    display: flex;
+    gap: 38px;   
+}
+.header-content{
+    flex-direction: column;
+}
+.creative-agency{
+    flex-direction: column;
+    margin-bottom: 70px;
+    gap: 10px;
+}
+.scroll-explore{
+    margin-top: 130px;
+}
+.creative-things{
+    position: relative;
+}
+.creative-things{
+    font-size: 100px;
+}
+.vector{
+    position: absolute;
+    border: 1px solid black;
+    padding: 30px;
+    border-radius: 50%; 
+}
+.vector-1{
+    top: 270px;
+    left: 30px
+}
+.line-y{
+    width: 100vw;
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+/* section work */
+h6{
+    font-size: 18px;
+    margin-bottom: 36px;
+}
+.work-div h1{
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 92px;
+    font-size: 64px;
+    font-weight: 265;
+    line-height: 92px;
+    margin-bottom: 60px;
+    position: relative;
+}
+.vector-2{
+    left: 950px;
+    bottom: 70px;
+}
+.work-div p{  
+    font-size: 36px;
+    font-weight: 265;
+    line-height: 46px;
+}
+.work-scroll{
+    margin: 100px 0;
+}
+.line-x-s{
+    width: 190px;
+    height: 78px;
+    border-right: 1px solid black;
+}
+/* nike */
+
+.nike-text h1{
+    font-size: 64px;
+}
+.nike-text p{
+    font-size: 24px;
+    font-weight: 265;
+    line-height: 42px;
+    width: 630px;
+}
+
+.nike-photo{
+    position: relative;
+    margin-top: 77px;
+}
+.white-scroll{
+    position: absolute;
+    right: 50px;
+    top: 300px
+}
+/* photo 2 and 3 (Holke, Falsa) */
+.holke-falsa{
+    margin: 50px 0;
+    gap: 10px;
+}
+.holke-falsa h1{
+    margin: 50px 0;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 83px;
+}
+/* cocaCola and other stuff */
+.work-content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.work-content-1, .work-content-2{
+    display: flex;
+    gap: 85px;
+
+}
+.work-content-1 div, .work-content-2 div{
+    display: flex;
+    align-items: center; 
+    font-size: 48px;
+    font-weight: 100;
+    line-height: 62px;
+    gap: 35px;
+}
+/* services */
+.services{
+    margin-top: 80px;
+    margin-bottom: 180px;
+}
+.services-img{
+    width: 1300px;
+}
+.services-ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 64px;
+    font-weight: 265;
+    line-height: 92px;
+    gap: 50px;
+}
+.vector-3{
+    margin-left: 70px
+}
+.services-div{
+    display: flex;
+}
+.phone-img{
+    width: fit-content;
+    height: fit-content;
+    margin-left: 100px;
+}
+/* section - about */
+.about{
+    height: 1350px;
+}
+.gradient-div{
+    width: 100%;
+    height: 830px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right,yellow, rgb(148, 7, 7) );
+    padding: 80px;   
+}
+.gradient-div h6{
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 23px;
+}
+.gradient-div p{  
+font-size: 64px;
+font-weight: 265;
+line-height: 92px;
+}
+.about-content{
+    display: flex;
+    gap: 100px;
+    position: relative;
+    top: -300px;
+    left: 80px;
+    
+}
+.about-content-text{
+    display: flex;
+    flex-direction: column;
+    gap: 140px;
+}
+.about-content-text h1{
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 92px;
+}
+/* contact */
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;   
+}
+.contact-us{
+    text-align: center;
+}
+.contact h1{ 
+font-size: 64px;
+font-weight: 700;
+line-height: 92px;
+display:inline-block;
+background: black;
+background: linear-gradient(to bottom right, red, yellow);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+
+}
+.contact a{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 46px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+
+}
+.contact a img{
+    width: 16px;
+}
+
+/* different color words */
+.design, .branding, .cola {
+    color: red;
+}
+.cola{
+    
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 62px;
+
+
+}
