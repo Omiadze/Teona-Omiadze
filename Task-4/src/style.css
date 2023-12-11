@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-div{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-div div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 500px;
+    background-color: black;
+    padding: 80px;
+    background: linear-gradient(to left, black 50%, white 50%);
+}
+h1{
+    
+    background: linear-gradient(to right, black 50%, white 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
