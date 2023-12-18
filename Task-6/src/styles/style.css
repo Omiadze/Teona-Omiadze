@@ -1,0 +1,384 @@
+
+:root {
+  --txt-color: #07043b;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+.display-flex-row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* header */
+.nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 1.8em 1.7em;
+}
+
+.nav-logo {
+  width: 6em;
+}
+
+.nav-bar {
+  display: flex;
+  font-size: 0.85rem;
+  font-weight: 400;
+  align-items: center;
+  gap: 2em;
+  color: var(--txt-color);
+}
+
+.section-1,
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: var(--txt-color);
+}
+
+.section-1-img {
+  width: 22em;
+  margin: 0 auto;
+  padding-top: 7.4em;
+}
+
+.section-1-h1 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.5em;
+  margin-top: 1.6em;
+}
+
+.section-1-p {
+  font-weight: 400;
+  line-height: 1.5em;
+  margin-top: 1.7em;
+  margin-bottom: 2.2em;
+}
+
+/* email btn 1 */
+.email-btn {
+  display: flex;
+  flex-direction: column;
+}
+.email-btn-1 {
+  width: 21em;
+  gap: 1.2em;
+  margin: 0 auto;
+}
+.email-1 {
+  border: 0.7px solid var(--txt-color);
+  border-radius: 4px;
+  padding: 1em 12em 0.8em 1.5em;
+  color: #c2c2c2;
+}
+.btn {
+  background-color: #2f65f8;
+  border: none;
+  color: white;
+}
+.btn-1 {
+  border-radius: 4px;
+  padding: 0.85em 7.3em;
+
+  font-weight: 700;
+}
+/* section-2 */
+.section-2-img {
+  margin: 0 auto;
+  width: 22.86em;
+  padding: 13.1em 2em 6em 2em;
+}
+.section-2-h3 {
+  font-weight: 700;
+  margin-bottom: 1.7em;
+}
+.section-2-p {
+  padding: 0 1.79em 1.1em 1.79em;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: #615f7e;
+}
+.arrow-div {
+  color: #3da08f;
+  width: 11.6em;
+  height: 1.6em;
+  display: flex;
+  margin: 0 auto;
+  gap: 0.57em;
+  font-size: 0.86rem;
+  border-bottom: solid #3da08f 2px;
+}
+/* white box */
+.white-box {
+  width: 20em;
+  background-color: white;
+  box-shadow: 0px 0px 8px 4px rgba(56, 56, 56, 0.0458843);
+  border-radius: 0.3em;
+  padding: 1.5em;
+  margin: 2.9em auto 5.9em auto;
+}
+.quotes-p {
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 0.38px;
+  margin-bottom: 0.9em;
+}
+.avatar-div {
+  display: flex;
+}
+.avatar-img {
+  width: 1.8em;
+  height: 1.8em;
+  border-radius: 1.5em;
+}
+.avatar-h1 {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.45px;
+}
+.avatar-p {
+  font-size: 0.5rem;
+  letter-spacing: 0.3px;
+}
+.avatar-h1-p {
+  gap: 0.2em;
+  padding-left: 0.6em;
+}
+/* section-4 */
+.section-4 {
+  background-color: #575988;
+  color: white;
+  padding: 3.9em 3.4em 5em 3.4em;
+  text-align: center;
+}
+.section-4-h {
+  font-weight: 700;
+  margin-bottom: 1.1em;
+}
+.section-4-p {
+  font-weight: 400;
+  line-height: 1.5em;
+}
+/* email btn 2 */
+.email-btn-2 {
+  gap: 0.6em;
+  margin-top: 2.4em;
+}
+.email-2,
+.btn-2 {
+  font-size: 0.7rem;
+  box-shadow: 1px 1px 3px rgba(7, 4, 59, 0.157043);
+  border-radius: 1.47059px;
+}
+.email-2 {
+  padding: 1em 10em 1em 0.8em;
+  color: #c0c0c0;
+  border: none;
+}
+.btn-2 {
+  padding: 1em 7em;
+  font-weight: 700;
+}
+/* footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  background: #07043b;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 4em 6em 2.6em 2.6em;
+  gap: 32px;
+}
+.phone,
+.email-icon {
+  display: flex;
+  gap: 1.25em;
+  width: fit-content;
+}
+.phone {
+  margin-top: 2.1em;
+  margin-bottom: 1em;
+}
+.phone img{
+  width: 1em;
+  height: 1em;
+}
+.footer-p {
+  margin-bottom: 1em;
+}
+.icons {
+  margin: 0 auto;
+}
+.white-box{
+  text-align: left;
+}
+/* hover */
+.footer-p:hover, .btn:hover{
+  cursor: pointer;
+  opacity: 50%;
+  color: rgb(125, 125, 206);
+}
+.nav-bar p:hover{
+  cursor: pointer;
+}
+
+
+/* for desktop */
+
+
+@media screen and (min-width: 1224px) {
+ .display-flex-row{
+  flex-direction: row;
+  justify-content: space-between;
+ }
+  
+
+  header,
+  .section-2,
+  .section-4,
+  .footer {
+    padding: 4.7em 5.7em 6.1em 5.7em;
+    
+  }
+
+  .nav-logo {
+    width: 11.9em;
+  }
+
+  .nav-bar {
+    font-size: 1.14rem;
+    gap: 3.5em;
+  }
+
+  .section-1 {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .section-1-h1 {
+    font-size: 2.86rem;
+    margin-top: 4.2em;
+  }
+
+  .section-1-p,
+  .section-4-p {
+    font-size: 1.21rem;
+    width: 33em;
+  }
+
+  .section-1-img {
+    order: 2;
+    width: 45em;
+  }
+
+  /*  firts btns */
+  .email-btn-1 {
+    flex-direction: row;
+    margin: 0;
+    width: 40em;
+  }
+
+  .email-1 {
+    width: 23em;
+  }
+
+  .btn {
+    padding: 0;
+    width: 14.3em;
+  }
+
+  /* second half of page !!!!!!!!!!!!!!!!*/
+
+  .main-content {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .section-2-img {
+    order: 2;
+    width: 39em;
+    height: 30em;
+    padding: 0;
+    margin-top: 18em;
+    margin-right: 6em;
+  }
+
+  .section-2-p {
+    padding: 1em 0;
+    width: 33.2em;
+  }
+
+  .section-2-h3 {
+    font-size: 2.86rem;
+    margin: 3em 0 1em 0;
+  }
+
+  .arrow-div {
+    margin: 0;
+  }
+
+  .white-box {
+    margin: 3.5em 0;
+    width: 25.5em;
+    padding: 2.4em;
+  }
+
+  .quotes-p {
+    font-size: 1rem;
+  }
+
+  .avatar-h1 {
+    font-size: 0.8rem;
+  }
+
+  .avatar-p {
+    font-size: 0.6rem;
+  }
+
+  .section-4 {
+    display: flex;
+    text-align: left;
+    gap: 16em;
+  }
+
+  .section-4-h {
+    font-size: 2.3rem;
+  }
+
+  .email-btn-2 {
+    gap: 1.14em;
+  }
+  .email-2 {
+    font-size: 0.86rem;
+    /* padding: 1.3em 18em 1.5em 1.8em; */
+  }
+  .btn-2 {
+    font-size: 1rem;
+    padding: 1.1em 1.6em;
+  }
+  .footer {
+    flex-direction: row;
+    gap: 13em;
+  }
+  .about,
+  .contact,
+  .icons {
+    padding-top: 4.1em;
+  }
+  
+}
